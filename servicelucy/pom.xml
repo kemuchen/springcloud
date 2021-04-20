@@ -8,10 +8,11 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>eurekaclient</artifactId>
+    <artifactId>servicelucy</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eurekaclient</name>
+    <name>servicelucy</name>
     <description>Demo project for Spring Boot</description>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>

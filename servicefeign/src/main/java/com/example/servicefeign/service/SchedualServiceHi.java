@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @Date 2021/4/19 10:12
  * @Version 1.0
  */
-@FeignClient(value = "service-hi")
+@FeignClient(value = "service-hi", fallback = SchedualServiceHiHystric.class)
 public interface SchedualServiceHi {
 
     @RequestMapping(value = "/hi", method = RequestMethod.GET)

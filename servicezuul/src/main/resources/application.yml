@@ -12,4 +12,6 @@ zuul:
     api-a:
       path: /api-a/**
       service-id: service-feign
-      strip-prefix: false
+    api-b:
+      path: /api-b/**
+      service-id: service-ribbon

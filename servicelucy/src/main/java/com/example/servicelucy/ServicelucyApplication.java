@@ -1,4 +1,4 @@
-package com.example.eurekaclient;
+package com.example.servicelucy;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Value;
@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableHystrix
 @EnableHystrixDashboard
 @EnableCircuitBreaker
-public class EurekaclientApplication {
+public class ServicelucyApplication {
 
     /**
      * 访问地址 http://localhost:8762/actuator/hystrix.stream
@@ -28,7 +28,7 @@ public class EurekaclientApplication {
      */
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaclientApplication.class, args);
+        SpringApplication.run(ServicelucyApplication.class, args);
     }
 
     @Value("${server.port}")
